@@ -1,0 +1,8 @@
+spriteTypes = {
+	spriteType = {
+	name = "GFX_disaster_multi_triple_alliance"
+	texturefile = "gfx//interface//disasters//multi_triple_alliance.dds"
+	noOfFrames = 3
+	loadType = "INGAME"
+	}
+}

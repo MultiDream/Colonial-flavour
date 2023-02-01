@@ -1,0 +1,531 @@
+
+# Ideas for nations that typically use the 'colonial ideas' idea group.
+
+#Florida
+FLO_ideas = { 
+	trigger = {
+		tag = FLO
+	}
+	free = yes
+	
+	start = {
+		naval_forcelimit_modifier = 0.33
+		galley_power = 0.33
+	}
+	coastal_settlements = {
+		colonists = 1
+		global_colonial_growth = 20
+	}
+	harshest_marshes = {
+		defensiveness = 0.25
+		hostile_attrition = 1
+	}
+	carribean_keys = {
+		global_prov_trade_power_modifier = 0.25
+		ship_power_propagation = 0.25
+	}
+	sun_state = {
+		global_trade_goods_size_modifier = 0.1
+		development_cost = -0.1
+	}
+	florida_men_1 = {
+		global_institution_spread = 0.25
+		prestige = 1
+	}
+	militia_fleets = {
+		own_coast_naval_combat_bonus = 1.0
+		global_naval_engagement_modifier = 0.33
+	}
+	florida_men_2 = {
+		land_morale = 0.10
+		recover_army_morale_speed = 0.15
+	}
+	bonus = {
+		shock_damage_received = -0.20
+	}	
+}
+
+#Illinois
+ILI_ideas = {
+	trigger = {
+		tag = ILI
+	}
+	free = yes
+
+	start = {
+		embargo_efficiency = 0.5
+		caravan_power = 0.5
+	}
+	navigate_rivers_and_lakes = {
+		movement_speed = 0.1
+	}
+	settle_our_lands = {
+		colonists = 1
+	}
+	develop_river_logistics = {
+		trade_efficiency = 0.2
+	}
+	untouched_forests = {
+		build_cost = -0.2
+	}
+	ambush_tactics = {
+		infantry_shock = 0.5
+		fire_damage_received = -0.15
+	}
+	free_the_colonies = {
+		rebel_support_efficiency = 0.5
+		spy_offence = 0.2
+	}
+	illinois_federation = {
+		accept_vassalization_reasons = 30
+	}
+	bonus = {
+		governing_capacity = 200
+	}
+}
+
+#Louisiana
+LOU_ideas = {
+	trigger = {
+		tag = LOU
+	}
+	free = yes
+
+	start = {
+		mercantilism_cost = -0.67
+	}
+	gates_of_the_mississippi = {
+		embargo_efficiency = 0.5
+	}
+	teach_them_french = {
+		culture_conversion_cost = -0.25
+		num_accepted_cultures = 2
+	}
+	new_world_nobility = {
+		general_cost = -0.33
+		advisor_cost = -0.2
+		advisor_pool = 2
+	}
+	natives_are_friends = {
+		native_assimilation	= 0.5
+		min_autonomy_in_territories = -0.1
+	}
+	repousser = {
+		land_morale = 0.2
+		recover_army_morale_speed = 0.1
+	}
+	sur_notre_douve = {
+		naval_morale = 0.2
+		sunk_ship_morale_hit_recieved = -0.33
+	}
+	destinee_manifeste = { # Settle the known world, but you still need to discover it.
+		colonists = 1
+		#may_establish_frontier = yes ##TooStrong!
+	}
+	bonus = {
+		build_cost = -0.1
+	}
+}
+
+#California.
+## California MAY occasionally be colonized by Asian based countries, so that should be a consideration here.
+
+CAL_ideas = {
+	trigger = {
+		tag = CAL
+	}
+
+	free = yes
+	start = {
+		colonists = 1
+	}
+	rumors_of_gold = {
+		monthly_gold_inflation_modifier = 0.33
+	}
+	religious_missions = {
+		tolerance_own = 1
+		native_assimilation = 0.5
+		yearly_patriarch_authority = 1
+		yearly_harmony = 1
+		monthly_karma = 0.1
+		monthly_fervor_increase = 1
+		church_power_modifier = 0.25
+		papal_influence = 1
+	}
+	firm_forts = {
+		defensiveness = 0.25
+		land_morale = 0.1
+	}
+	mediterranean_climate = {
+		development_cost = -0.15
+		trade_efficiency = 0.15
+	}
+	planned_burns = {
+		local_monthly_devastation = -0.1
+		war_exhaustion = -0.05
+	}
+	specialty_industry = {
+		technology_cost = -0.05
+		idea_cost = -0.1
+	}
+	golden_guns = {
+		manpower_recovery_speed = 0.15
+		global_manpower_modifier = 0.33
+	}
+	bonus = {
+		may_recruit_female_generals = yes
+		fire_damage = 0.15
+	}
+}
+
+## Cuban / Haitian / Carribean colonial ideas.
+CRB_ideas = {
+	trigger = {
+		tag = CUB
+		tag = HAT
+	}
+
+	free = yes
+	start = {
+		naval_forcelimit = 0.33
+		naval_morale = 0.2
+	}
+	republic_of_freedmen = {
+		republican_tradition = 0.5
+	}
+	freedom_raids = {
+		may_perform_slave_raid_on_same_religion = yes
+		capture_ship_chance = 0.33
+	}
+	free_navy = {
+		galley_power  = 0.25
+		light_ship_power = 0.25
+	}
+	free_industry = {
+		global_trade_goods_size_modifier = 0.1
+		development_cost = 0.1
+	}
+	slave_revolt_origins = {
+		yearly_revolutionary_zeal = 0.25
+		max_revolutionary_zeal = 15
+	}
+	major_carribean_nation = {
+		embargo_efficiency = 0.33
+		trade_efficiency = 0.15
+	}
+	naval_effort = {
+		global_sailors_modifier = 0.5
+		navy_tradition = 1
+	}
+	bonus = {
+		own_coast_naval_combat_bonus = 1
+	}
+}
+
+## Chile / Peru
+AND_ideas = {
+	trigger = {
+		tag = CHL
+		tag = PEU
+	}
+	free = yes
+	start = {
+		movement_speed = 0.25
+		merchants = 1
+	}
+	round_the_horn = {
+		colonists = 1
+		colonist_placement_chance = 0.05
+	}
+	megapolises = {
+		great_project_upgrade_cost = -0.33
+	}
+	mountain_forts = {
+		defensiveness = 0.33
+	}
+	light_administration = {
+		min_autonomy_in_territories = -0.1
+	}
+	safer_investments = {
+		interest = -1
+		inflation_reduction = -0.1
+	}
+	metallurgic_economy = {
+		monthly_gold_inflation_modifier = -0.5
+		gold_depletion_chance_modifier = -0.5
+	}
+	defensive_approach = {
+		fire_damage_received = -0.1
+		shock_damage_received = -0.1
+	}
+	bonus = {
+		military_tactics = 0.15
+	}
+} 
+
+## Columbia / Venezeula
+BOL_ideas = {
+	trigger = {
+		tag = COL
+		tag = VNZ
+	}
+	free = yes
+	start = {
+		diplomatic_upkeep = 1
+		diplomats = 1
+	}
+	coffee_and_chocolate = {
+		global_institution_spread = 0.25
+		development_cost = -0.1
+	}
+	amazon_rainforest = {
+		land_attrition = -0.25
+		hostile_attrition = 1.5
+	}
+	colonize_the_jungle={
+		colonists = 1
+	}
+	bolivars_legacy = {
+		diplomatic_reputation = 1
+		country_diplomatic_power = 1
+	}
+	new_hope = {
+		reform_progress_growth = 0.15
+	}
+	chaotic_politics = {
+		election_cycle	= -1
+		candidate_random_bonus = 2
+	}
+	attack_on_new_granada = {
+		movement_speed = 0.15
+		discipline = 0.05
+	}
+	bonus = {
+		land_morale = 0.15
+	}
+}
+
+## Paraguay
+PRG_ideas = {
+	trigger = {
+		tag = PRG
+	}
+	free = yes
+	start = {
+		land_forcelimit_modifier = 0.33
+		years_of_nationalism = -10
+	}
+	lay_claims = {
+		province_warscore_cost = -0.2
+		ae_impact = 0.1
+	}
+	military_advisors = {
+		advisor_pool = 2
+		mil_advisor_cost = -0.25
+	}
+	rotate_our_general_staff = {
+		leader_cost = -0.25
+		army_tradition = 0.33
+	}
+	honor_the_fallen = {
+		army_tradition_from_battle = 0.5
+		army_tradition_decay = -0.1
+	}
+	military_society = {
+		monthly_militarized_society = 0.1
+		global_manpower_modifier = 0.5
+		manpower_recovery_speed = 0.25
+	}
+	military_innovation = {
+		free_mil_policy = 1
+		possible_mil_policy = 1
+	}
+	after_the_dust_settles = {
+		build_cost = -0.15
+		global_monthly_devastation = -0.1
+	}
+	bonus = {
+		all_power_cost = -0.05
+	}
+}
+
+## La Plata / Argentina
+LAP_ideas = {
+	trigger = {
+		tag = LAP
+	}
+	free = yes
+	start = {
+		colonists = 1
+	}
+	chaco_basin = {
+		development_cost = -0.15
+	}
+	patagonian_cowboys = {
+		cavalry_power = 0.15
+		shock_damage = 0.15 
+	}
+	southern_navigation = {
+		admiral_cost = -0.33
+		navy_tradition = 0.5
+	}
+	marine_operations = {
+		movement_speed_onto_off_boat_modifier = -0.67
+		allowed_marine_fraction = 0.1
+	}
+	rich_culture = {
+		prestige = 1
+	}
+	national_pride = {
+		all_estate_loyalty_equilibrium = 0.1
+		land_morale = 0.1
+	}
+	centalization = {
+		state_governing_cost = -0.1
+	}
+	bonus = {
+		governing_capacity = 250
+	}
+}
+
+## Federal Republic of Central America
+CAM_ideas = {
+	trigger = {
+		tag = CAM
+	}
+	free = yes
+	start = {
+		merchants = 1
+		trade_steering = 0.33
+	}
+	between_two_oceans = {
+		trade_efficiency = 0.15
+		build_cost = -0.15
+	}
+	exotic_fruit = {
+		global_manpower_modifier = 0.3
+		development_cost = -0.15
+	}
+	militas = {
+		global_regiment_cost = -0.2
+		global_regiment_recruit_speed = -0.33
+	}
+	serious_militias = {
+		infantry_power = 0.2
+		drill_gain_modifier = 1.0
+	}
+	unify_the_nation = {
+		republican_tradition = 0.3
+		legitimacy = 0.5
+		meritocracy = 1 ## Honestly I'd be impressed. Go for it!
+		max_absolutism = 20
+	}
+	dutch_advice = {
+		idea_cost = -0.1
+		technology_cost = -0.05
+	}
+	the_big_one = {
+		great_project_upgrade_cost = -0.33
+	}
+	bonus = {
+		global_institution_spread = 0.33
+		innovativeness_gain = 1.0
+	}
+}
+
+# Virginia
+VIR_ideas = {
+	trigger = {
+		tag = VIR
+	}
+	free = yes
+	start = {
+		defensiveness = 0.15
+		shock_damage_received = -0.1
+	}
+	divine_latitude = { 
+		relation_with_same_religion = 10
+		church_power_modifier = 0.25
+		monthly_fervor_increase = 0.5
+		yearly_patriarch_authority = 0.5
+		papal_influence = 0.5
+	}
+	free_holding_reforms = {
+		colonists = 1
+		global_colonial_growth = 20
+	}
+	house_of_burgesses = {
+		republican_tradition = 0.3
+		legitimacy = 0.5
+	}
+	adopt_new_cultivars = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	refuge_of_rebels = {
+		army_tradition = 0.5
+	}
+	piedmont_counties = {
+		global_tax_modifier	= 0.1
+	}
+	lessons_of_the_indian_wars = {
+		discipline = 0.05
+	}
+	bonus = {
+		development_cost = -0.05
+	}
+}
+
+# OHIO 
+## Absolutely broken idea set, just for the hell of it.
+OHI = {
+	trigger = {
+		tag = OHI
+	}
+	free = yes
+
+	start = { # Costs nothing to make claims. Will find you.
+		fabricate_claims_cost = -2.0
+		may_explore = yes
+	}
+
+	claim_the_world = { # No penalty for non-claims.
+		unjustified_demands	= -1.0
+		cb_on_overseas = yes
+	}
+
+	strike_fear = { # Unbelievable military land bonus
+		land_morale = 0.4
+		discipline = 0.2
+	}
+
+	defenders_flee = { # Seiges go insanely quickly.
+		leader_siege = 3
+		siege_ability = 0.5
+	}
+
+	no_gods_before_ohio = { # No religious Penalty
+		no_religion_penalty = yes
+	}
+
+	the_sea_is_no_escape = { # Naval Battles are now going to be difficult.
+		naval_morale = 0.4
+		ship_durability = 0.4
+	}
+
+	extreme_administration = { # Annex all targets in one war. Does not suffer autonomy restrictions on newly acquired territories.
+		administrative_efficiency = 0.75
+		min_autonomy = -0.3
+	}
+
+	its_all_ohio = { # Final power. All nations have been ohian from the start. There is no seperatism, because who would they seperate too?
+		num_accepted_cultures = 100
+		promote_culture_cost = -1
+		years_of_nationalism = -30
+	}
+
+	bonus = { # Has the gov cap to core the world.
+		governing_capacity = 1000
+	}
+
+}
+
