@@ -10,7 +10,7 @@ FLO_ideas = {
 	
 	start = {
 		naval_forcelimit_modifier = 0.33
-		galley_power = 0.33
+		galley_power = 0.25
 	}
 	coastal_settlements = {
 		colonists = 1
@@ -34,7 +34,7 @@ FLO_ideas = {
 	}
 	militia_fleets = {
 		own_coast_naval_combat_bonus = 1.0
-		global_naval_engagement_modifier = 0.33
+		global_naval_engagement_modifier = 0.20
 	}
 	florida_men_2 = {
 		land_morale = 0.10
@@ -251,7 +251,7 @@ AND_ideas = {
 	}
 	safer_investments = {
 		interest = -1
-		inflation_reduction = -0.1
+		inflation_reduction = 0.1
 	}
 	metallurgic_economy = {
 		monthly_gold_inflation_modifier = -0.5
@@ -375,7 +375,7 @@ LAP_ideas = {
 		navy_tradition = 0.5
 	}
 	marine_operations = {
-		movement_speed_onto_off_boat_modifier = -0.67
+		movement_speed_onto_off_boat_modifier = 0.75
 		allowed_marine_fraction = 0.1
 	}
 	rich_culture = {
@@ -445,7 +445,7 @@ VIR_ideas = {
 	}
 	free = yes
 	start = {
-		defensiveness = 0.15
+		defensiveness = 0.2
 		shock_damage_received = -0.1
 	}
 	divine_latitude = { 
@@ -476,7 +476,7 @@ VIR_ideas = {
 		discipline = 0.05
 	}
 	bonus = {
-		development_cost = -0.05
+		development_cost = -0.1
 	}
 }
 
