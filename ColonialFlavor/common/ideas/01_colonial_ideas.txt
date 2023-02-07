@@ -145,7 +145,7 @@ CAL_ideas = {
 	religious_missions = {
 		tolerance_own = 1
 		native_assimilation = 0.5
-		yearly_patriarch_authority = 1
+		yearly_patriarch_authority = 0.05
 		yearly_harmony = 1
 		monthly_karma = 0.1
 		monthly_fervor_increase = 1
@@ -181,10 +181,11 @@ CAL_ideas = {
 ## Cuban / Haitian / Carribean colonial ideas.
 CRB_ideas = {
 	trigger = {
-		tag = CUB
-		tag = HAT
+		OR = {
+			tag = CUB
+			tag = HAT
+		}
 	}
-
 	free = yes
 	start = {
 		naval_forcelimit = 0.33
@@ -225,8 +226,10 @@ CRB_ideas = {
 ## Chile / Peru
 AND_ideas = {
 	trigger = {
-		tag = CHL
-		tag = PEU
+		OR = {
+			tag = CHL
+			tag = PEU
+		}
 	}
 	free = yes
 	start = {
@@ -266,8 +269,10 @@ AND_ideas = {
 ## Columbia / Venezeula
 BOL_ideas = {
 	trigger = {
-		tag = COL
-		tag = VNZ
+		OR = {
+			tag = COL
+			tag = VNZ
+		}
 	}
 	free = yes
 	start = {
