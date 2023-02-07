@@ -228,7 +228,7 @@ AND_ideas = {
 	trigger = {
 		OR = {
 			tag = CHL
-			tag = PEU
+			#tag = PEU
 		}
 	}
 	free = yes
@@ -270,7 +270,7 @@ AND_ideas = {
 BOL_ideas = {
 	trigger = {
 		OR = {
-			tag = COL
+			#tag = COL
 			tag = VNZ
 		}
 	}
@@ -355,43 +355,43 @@ PRG_ideas = {
 }
 
 ## La Plata / Argentina
-LAP_ideas = {
-	trigger = {
-		tag = LAP
-	}
-	free = yes
-	start = {
-		colonists = 1
-	}
-	chaco_basin = {
-		development_cost = -0.15
-	}
-	patagonian_cowboys = {
-		cavalry_power = 0.15
-		shock_damage = 0.15 
-	}
-	southern_navigation = {
-		admiral_cost = -0.33
-		navy_tradition = 0.5
-	}
-	marine_operations = {
-		movement_speed_onto_off_boat_modifier = 0.75
-		allowed_marine_fraction = 0.1
-	}
-	rich_culture = {
-		prestige = 1
-	}
-	national_pride = {
-		all_estate_loyalty_equilibrium = 0.1
-		land_morale = 0.1
-	}
-	centalization = {
-		state_governing_cost = -0.1
-	}
-	bonus = {
-		governing_capacity = 250
-	}
-}
+#LAP_ideas = {
+#	trigger = {
+#		tag = LAP
+#	}
+#	free = yes
+#	start = {
+#		colonists = 1
+#	}
+#	chaco_basin = {
+#		development_cost = -0.15
+#	}
+#	patagonian_cowboys = {
+#		cavalry_power = 0.15
+#		shock_damage = 0.15
+#	}
+#	southern_navigation = {
+#		admiral_cost = -0.33
+#		navy_tradition = 0.5
+#	}
+#	marine_operations = {
+#		movement_speed_onto_off_boat_modifier = 0.75
+#		allowed_marine_fraction = 0.1
+#	}
+#	rich_culture = {
+#		prestige = 1
+#	}
+#	national_pride = {
+#		all_estate_loyalty_equilibrium = 0.1
+#		land_morale = 0.1
+#	}
+#	centalization = {
+#		state_governing_cost = -0.1
+#	}
+#	bonus = {
+#		governing_capacity = 250
+#	}
+#}
 
 ## Federal Republic of Central America
 CAM_ideas = {
