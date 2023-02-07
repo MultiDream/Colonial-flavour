@@ -179,7 +179,7 @@ CAL_ideas = {
 }
 
 ## Cuban / Haitian / Carribean colonial ideas.
-CRB_ideas = {
+CAR_ideas = {
 	trigger = {
 		OR = {
 			tag = CUB
