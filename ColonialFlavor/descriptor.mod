@@ -1,7 +1,9 @@
-version="0.0.0"
+version="0.1.0"
 tags={
-	"Alternative History"
+	"Gameplay"
+	"National Ideas"
+	"Missions And Decisions"
 }
 name="ColonialFlavor"
-supported_version="1.33.*"
+supported_version="1.34.*"
 remote_file_id="2855136165"

@@ -1,0 +1,93 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+colonial_parent = JAP
+random_nation_chance = 0
+
+color = { 154  48  3 }
+revolutionary_colors = { 174 76 34 }
+
+historical_idea_groups = {
+	expansion_ideas
+	plutocracy_ideas
+	economic_ideas
+	quality_ideas
+	trade_ideas
+	offensive_ideas
+	religious_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Liam" = 40
+	"Noah" = 20
+	"Laith" = 20
+	"Ilian" = 10
+	"Elijah" = 10
+	"Sebastian" = 10
+	"Dante" = 5
+	"Sol" = 5
+	"Waltuh" = 5
+	"Garon" = 5
+	"Fialith" = 1
+	"Olivia" = -20
+	"Emma" = -15
+	"Sophia" = -15
+	"Luna" = -10
+	"Isabella" = -10
+	"Camila" = -10
+	"Mia" = -5
+	"Amelia" = -5
+	"Charlotte" = -5
+	"Ava" = -1
+}
+
+leader_names = {
+	Sebastian
+	Michael
+	David
+	Ezekiel
+	Blake
+	Victor
+	Cain
+	Joshua
+	Thompson
+	Waltuh
+}
+
+ship_names = {
+	Phoenix
+	Arizona
+	Pima
+	Maricopa
+	Pueblo
+	Tucson
+	Mohave
+	"La Paz"
+	Yuma
+	Apache
+	Navajo
+	Yavapai
+	Sol
+	Zia
+}

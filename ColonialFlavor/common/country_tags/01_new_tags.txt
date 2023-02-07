@@ -1,1 +1,2 @@
+ARZ = "countries/Arizona.txt"
 VIR = "countries/Virginia.txt"

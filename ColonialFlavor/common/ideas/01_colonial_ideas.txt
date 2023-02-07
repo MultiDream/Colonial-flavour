@@ -140,7 +140,7 @@ CAL_ideas = {
 		colonists = 1
 	}
 	rumors_of_gold = {
-		monthly_gold_inflation_modifier = 0.33
+		monthly_gold_inflation_modifier = -0.33
 	}
 	religious_missions = {
 		tolerance_own = 1
@@ -203,7 +203,7 @@ CRB_ideas = {
 	}
 	free_industry = {
 		global_trade_goods_size_modifier = 0.1
-		development_cost = 0.1
+		development_cost = -0.1
 	}
 	slave_revolt_origins = {
 		yearly_revolutionary_zeal = 0.25
@@ -472,6 +472,45 @@ VIR_ideas = {
 	}
 	bonus = {
 		development_cost = -0.05
+	}
+}
+
+# Arizona
+ARZ_ideas = {
+	trigger = {
+		tag = ARZ
+	}
+	free = yes
+	start = {
+		max_hostile_attrition = 1
+		global_colonial_growth = 20
+	}		
+	making_a_oasis = {	
+		development_cost = -0.10
+	}	
+	crossroads_of_the_four_deserts = {
+		hostile_attrition = 1
+		land_attrition = -0.20
+	}
+    the_land_of_copper_and_sunshine = {
+		artillery_cost = -0.10
+		artillery_power = 0.10
+	}
+	pacific_in_our_grasp = {
+		trade_efficiency = 0.15
+	}
+	we_shall_endure = {
+		prestige = 1
+	}
+	light_blinds_all = {
+		fire_damage_received = -0.20
+		shock_damage_received = 0.10
+	}
+	early_engineering = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	bonus = {
+		discipline = 0.05
 	}
 }
 
